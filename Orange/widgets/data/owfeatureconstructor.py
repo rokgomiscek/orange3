@@ -326,7 +326,7 @@ class FeatureConstructorHandler(DomainContextHandler):
 class OWFeatureConstructor(OWWidget):
     name = "Feature Constructor"
     description = "Construct new features (data columns) from a set of " \
-                  "existing features in the input data set."
+                  "existing features in the input dataset."
     icon = "icons/FeatureConstructor.svg"
 
     class Inputs:
